@@ -86,7 +86,7 @@ transition: color 0.3 ease;
 color: #fff;
 font-size: 23px;
 cursor: pointer;
-
+display: none;
 }
 /* ======================================== */
 /* Scroolll buton  */
@@ -578,7 +578,7 @@ text-align: justify;
 }
 .deploy a i{
     font-size: 28px;
-    color:crimson;
+    color: lightblue;
     cursor: pointer;
 }
 
@@ -712,6 +712,7 @@ footer span a:hover{
     /* // phone */
 
            /* // home section */
+           
     .home {
         width: 100%;
        
@@ -733,12 +734,18 @@ footer span a:hover{
 @media (min-width: 300px) and (max-width: 510px){
            
     /* // phone */
-
+    .text{
+        margin-left: 20px;
+    }
+    .icons .row{
+       
+        margin-left: 20px;
+       }
            /* // home section */
     .home {
         width: 100%;
        
-        border: 1px solid red;
+        
     }
     .teams .carousel .card img{
         height: 150px;
