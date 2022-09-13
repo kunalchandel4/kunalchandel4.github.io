@@ -5,8 +5,35 @@ $(document).ready(function () {
     } else {
       $(".navbar").removeClass("sticky");
     }
+    if(this.scroll >500){
+      $('.scroll-up-btn').addClass("show")
+    }else{
+      $('.scroll-up-btn').removeClass("show")
+    }
   });
 
+// slide up script
+
+$('.scroll-up-btn').click(function(){
+
+  $('html').animate({scrollTop: 0})
+})
+
+
+         
+var typed = new Typed(".typing",{
+  strings:["Developer","Java Backened Developer","Software-Engineer"],
+  typespeed:100,
+  backspeed:60,
+  loop:true
+})
+
+var typed = new Typed(".typing-2",{
+  strings:["Developer","Java Backened Developer","Software-Engineer"],
+  typespeed:100,
+  backspeed:60,
+  loop:true
+})
   //   toogel caste thing menu
 
   $(".menu-btn").click(function () {
