@@ -87,9 +87,9 @@ Home Secton start */
 
 .home{
     display: flex;
-    background: url(Images/main.png)no-repeat center; 
+    background: black ; 
     height: 100vh;
-    width: 100%;
+
     color: #fff;
     min-height: 500px;
     background-color: black;
@@ -113,6 +113,7 @@ Home Secton start */
 .home  .home-content .text-3{
     font-size: 40px;
     margin: 5px 0;
+  
 
 }
 
@@ -161,6 +162,33 @@ font-weight: 500;
 margin-bottom: 60px;
 padding-bottom: 20px;
     font-family: 'ubuntu',sans-serif;
+}
+
+.about .about-content .right p{
+    
+    text-align: justify;
+
+}
+
+.about .about-content .right a{
+
+display: inline-block;
+background: crimson;
+font-size: 20px;
+font-weight: 500;
+color: #fff;
+padding: 10px 30px;
+margin-top: 20px;
+border-radius: 6px;
+border: 2px solid crimson;
+transition: all 0.3s ease;
+
+}
+.about .about-content .right a:hover{
+
+color: crimson;
+background: none;
+
 }
 
 .about .about-content .left img{
@@ -236,49 +264,28 @@ width: 45%;
       
     }
 
-    .about .about-content .right p{
-    
-        text-align: justify;
-
-    }
-
-    .about .about-content .right a{
-
-display: inline-block;
-background: crimson;
-font-size: 20px;
-font-weight: 500;
-color: #fff;
-padding: 10px 30px;
-margin-top: 20px;
-border-radius: 6px;
-border: 2px solid crimson;
-transition: all 0.3s ease;
-
-    }
-    .about .about-content .right a:hover{
-
-color: crimson;
-background: none;
-
-    }
+ 
 
 
 
     /* Services Section means skill */
     .services, .teams{
+       
         color: #fff;
         background: #111;
     }
-    .services .title::before, .teams .title::before{
+    .services .title::before,
+    .teams .title::before{
         background: #fff;
            
         
-           }
-
+    }
+          
    .services .title::after, .teams .title::after{
 background: #111;
     content: "What i provide";
+    font-size: 14px;
+    
 
    }
 
@@ -424,48 +431,179 @@ font-size: 18px;
 /* project section  */
 .teams .title::after{
     content: "What have i done so far" ;
+    font-size: 12px;
   
 }
 
+
+.teams .carousel .card .box{
+
+  
+
+    align-items: center;
+    justify-content: center;
+
+width: 80%;
+margin: auto;
+}
+
+
 .teams .carousel .card{
-background: #2222;
+background: #222;
 border-radius: 6px;
 padding:25px 35px ;
 text-align: center;
 
-}
-.teams .carousel .card .box{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 
 }
+
 .teams .carousel .card .text{
-    
-    font-size: 20px;
+
+    font-size: 30px;
     font-weight: 500;
+
     margin: 10px 0 7px 0;
+}
 
 .teams .carousel .card img{
-height: 150px;
-width: 260px;
-object-fit: cover;
-border-radius:10% ;
-border: 2px solid crimson;
+    height: 300px;
+    width: 450px;
+    object-fit: cover;
+    border-radius:10% ;
+    border: 2px solid crimson;
+    
+    
+    
+    }
 
 
 
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* responsive media query  */
+@media (min-width: 100px) and (max-width: 301px){
+           
+    /* // phone */
+
+           /* // home section */
+    .home {
+        width: 100%;
+       
+      
+    }
+    .teams .carousel .card img{
+        height: 100px;
+        width: 150px;
+        object-fit: cover;
+        border-radius:10% ;
+        border: 2px solid crimson;
+        
+        
+        
+        }
+
+}
+
+@media (min-width: 300px) and (max-width: 510px){
+           
+    /* // phone */
+
+           /* // home section */
+    .home {
+        width: 100%;
+       
+        border: 1px solid red;
+    }
+    .teams .carousel .card img{
+        height: 150px;
+        width: 250px;
+        object-fit: cover;
+        border-radius:10% ;
+        border: 2px solid crimson;
+        
+       
+        
+        }
+
+        
+        .about .about-content .right a{
+      
+        
+        font-size: 15px;
+       
+        padding: 8px 20px;
+       
+        
+        }
+          .lorem{
+            margin: 0 20px;
+          }
+          #skill, #read{
+            margin-left: 14px;
+        
+          }
+        .right{
+        
+            margin: 0 20px;
+        }
+        /* .about .about-content .left img{
+        height: 300px;
+        width: 0px;
+        border: 1px solid blue;
+        object-fit: cover;
+        border-radius: 6px;
+        
+        } */
 
 
+
+
+
+
+}
+@media (min-width: 510px) and (max-width: 800px){
+           
+    /* // phone */
+
+           /* // home section */
+    .home {
+        width: 100%;
+       
+        border: 1px solid red;
+    }
+    .teams .carousel .card img{
+        height: 250px;
+        width: 350px;
+        object-fit: cover;
+        border-radius:10% ;
+        border: 2px solid crimson;
+        
+        
+        
+        }
+
+}
 
 @media (max-width:1300px){
 .home .max-width{
-    
+  
      margin-left: 0px;
     
 }
@@ -607,7 +745,7 @@ border: 2px solid crimson;
 
     .max-width{
         
-        padding: 0 23px;
+        padding: 0 0px;
       
     
     }
