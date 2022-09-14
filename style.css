@@ -129,7 +129,7 @@ Home Secton start */
     display: flex;
     background: black ; 
     height: 100vh;
-
+background: url(images/back.avif);
     color: #fff;
     min-height: 500px;
     background-color: black;
@@ -475,7 +475,37 @@ font-size: 18px;
     font-size: 12px;
   
 }
+.carousel{
+width: 90%;
 
+   display: flex;
+   overflow: scroll;
+   gap: 1.5rem;
+  
+}
+#id3{
+    width: 100vw;
+    margin: auto;
+  
+}
+#id3 #id1{
+    width: 100%;
+}
+#id3 #id1 #id2 #box1{
+        
+        overflow: hidden;
+        justify-content: center;
+}
+#id3 #id1 #id2 #box1 img{
+    margin-top: 2rem;
+  width: auto;
+  height: 300px;
+}
+.carousel::-webkit-scrollbar{
+
+    width: 0;
+    overflow: hidden;
+}
 
 .teams .carousel .card .box{
 
@@ -488,13 +518,19 @@ width: 80%;
 margin: auto;
 transition: all 0.3s ease;
 }
-
-
-
+/* #id2{
+    width: 2000px;
+    border: 1px solid yellow;
+} */
+#id1{
+  
+    width: 80vw;
+}
 .teams .carousel .card{
+  
 background: #222;
 border-radius: 6px;
-padding:25px 35px ;
+/* padding:25px 35px ; */
 text-align: center;
 margin-top: 20px;
 transition: all 0.3s ease;
@@ -502,14 +538,15 @@ transition: all 0.3s ease;
 
 .teams .carousel .card:hover{
     background: crimson;
+padding-bottom: 20px;
 }
 
 .teams .carousel .card .text{
 
     font-size: 30px;
     font-weight: 500;
-
-    margin: 10px 0 7px 0;
+   margin: 10px 0 7px 0; 
+   
 }
 .teams .carousel .card:hover .box{
     transform: scale(1.05);
@@ -517,8 +554,8 @@ transition: all 0.3s ease;
 }
 
 .teams .carousel .card img{
-    height: 300px;
-    width: 450px;
+    height: 50vh;
+    width: 30vw;
     object-fit: cover;
     border-radius:10% ;
     border: 4px solid crimson;
@@ -696,7 +733,6 @@ footer span a:hover{
 
     text-decoration:underline ;
 }
-
 
 
 
@@ -999,6 +1035,25 @@ font-size: 16px;
     
     display: block;
 }
+#icon{
+    font-size: 25px;
+    color: black;
+}
 
+@media (min-width: 100px) and (max-width: 900px){
+    .teams .carousel .card img{
+       
+        border: 6px solid red;
+      
+    }
+    #id2{
+     
+        width: 80%;
+    }
+.home{
+    
+        height: 60vh;
+}
+}
 /* 
  */
