@@ -129,7 +129,7 @@ Home Secton start */
     display: flex;
     background: black ; 
     height: 100vh;
-background: url(images/back.avif);
+background: url(https://images.unsplash.com/photo-1448067686092-1f4f2070baae?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHBvcnRmb2xpbyUyMGJhY2tncm91bmR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
     color: #fff;
     min-height: 500px;
     background-color: black;
@@ -481,7 +481,12 @@ width: 90%;
    display: flex;
    overflow: scroll;
    gap: 1.5rem;
+   overflow-y: hidden;
   
+}
+.carousel.carousel::-webkit-scrollbar{
+   border: 1px solid crimson;
+   background: lightgrey
 }
 #id3{
     width: 100vw;
@@ -503,8 +508,7 @@ width: 90%;
 }
 .carousel::-webkit-scrollbar{
 
-    width: 0;
-    overflow: hidden;
+   
 }
 
 .teams .carousel .card .box{
