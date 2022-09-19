@@ -1071,7 +1071,11 @@ grid-template-columns: repeat(2,1fr);
 grid-template-rows: auto;
 gap: 30px;
     height: 100vh;
-    
+
+    margin-bottom: 150px;
+}
+.ek{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .gird div h3{
@@ -1254,6 +1258,7 @@ border-radius: 10px;
     width: 80px;
   
     height: 60px;
+    
 }
 
 .back{
@@ -1299,9 +1304,46 @@ width: 110px;
 
 
 
+@media (min-width: 550px) and (max-width: 1695px){
 
 
 
+    #sk div{
+
+        width: 50%;
+           margin-bottom: 30px;
+           box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    
+
+       }
+       #sk div:nth-child(3){
+
+        width: 35%;
+           margin-bottom: 30px;
+           box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+          
+
+       }
+       #sk div:nth-child(4){
+
+        width: 30%;
+           margin-bottom: 30px;
+           box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+     
+
+       }    
+       
+
+}
+
+@media (min-width: 350px) and (max-width: 520px){
+    #sk div{
+
+
+        margin-bottom: 20px;
+    }
+
+}
 
 
 footer{
