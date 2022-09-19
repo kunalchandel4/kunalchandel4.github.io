@@ -15,7 +15,7 @@ html{
 /* nav-bar styling */
 
 .max-width{
-    max-width: 1300px;
+    /* max-width: 1300px; */
     padding: 0 80px;
    
     margin: auto;
@@ -1176,19 +1176,26 @@ font-family: 'Poppins',sans-serif;
       
         height: 40px;
     }
-    
+  
     .back img{
         border-radius: 10px;
         width: 50px;
         height: 40px;
     }
+ 
+    .soft{
+        width: 100%;
+      
+        
+    }
     
     .soft img{
-        border-radius: 10px;
-        width: 30px;
-        gap: 10px;
-        height: 20px;
-        border: 1px solid red;
+
+
+        margin-right: 8px;
+    
+   
+       
     }
 
 
@@ -1196,10 +1203,16 @@ font-family: 'Poppins',sans-serif;
 @media (min-width: 350px) and (max-width: 410px){
     .contact{
 
-        margin-top: 850px;
+        margin-top: 950px;
     }
 }
 
+@media (min-width: 320px) and (max-width: 360px){
+    .contact{
+
+        margin-top: 1650px;
+    }
+}
 
 
 
@@ -1214,6 +1227,13 @@ font-family: 'Poppins',sans-serif;
     font-family: 'ubuntu',sans-serif;
 } */
 
+@media (min-width: 320px) and (max-width: 780px){
+  .soft ,.fron,.back{
+width: 100%;
+  
+ }
+}
+
 
 
 #sk {
@@ -1222,7 +1242,7 @@ font-family: 'Poppins',sans-serif;
     grid-template-rows: repeat(3,fr);
 }
 .fron{
- width: 50%;
+ width: 40%;
  margin: auto;
     display: flex;
 
@@ -1237,7 +1257,7 @@ border-radius: 10px;
 }
 
 .back{
-    width: 80%;
+    width: 60%;
     margin: auto;
        display: flex;
    
@@ -1261,7 +1281,7 @@ margin-bottom: 40px;
 margin-top: 25px;
 }
 .soft{
-    width: 80%;
+    width: 65%;
     margin: auto;
        display: flex;
 
