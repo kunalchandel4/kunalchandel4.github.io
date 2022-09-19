@@ -43,7 +43,7 @@
           <li><a href="#about" class="menu-btn">About</a></li>
           <li><a href="#services" class="menu-btn">Services</a></li>
           <li><a href="#skills" class="menu-btn">Skills</a></li>
-          <li><a href="#teams" class="menu-btn">Projects</a></li>
+          <li><a href="#project" class="menu-btn">Projects</a></li>
           <li><a href="#Contact" class="menu-btn">Contact</a></li>
         </ul>
 
@@ -103,7 +103,7 @@
           <!-- card 1 -->
           <div class="card">
             <div class="box">
-              <i class="fa-brands fa-java"></i>
+              <i id="java" class="fa-brands fa-java"></i>
               <div class="text">Java(MySQL)</div>
               <!-- <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -146,97 +146,211 @@
     <!-- SKills <Section></Section> -->
 
     <section class="skills" id="skills">
-      <div class="max-width">
-        <h2 class="title">My Skills</h2>
-        <div class="skills-content">
-          <div class="column left">
-            <div class="text" id="skill">My Education</div>
-            <p class="lorem" id="dev">Java Backend Developer</p>
-            <p class="lorem" id="edu">Masai School <span>Nov 2022</span></p>
-            <p class="lorem">
-              'I'm a certified backend developer adept at contributing to the
-              highly collaborative work environment and finding solutions. and
-              determining customer satisfaction. Designed and developed web
-              applications across multiple APIs, third-party integration, and
-              database. Passionate and hardworking will penchant for developing
-              Customized interfaces that factor in unique demands for
-              accessibility, reachability, and security.
-            </p>
-
-            <!-- <a href="#" id="read"> Read More</a> -->
-          </div>
-          <div class="column right">
-            <div class="bars">
-              <i class="fa-brands fa-java" id="icon"></i>
-              <div class="info">
-                
-                <span>Java</span>
-                <span>90%</span>
-              </div>
-              <div class="line java"></div>
-            </div>
-            <div class="bars">
-              <i class="fa-solid fa-database" id="icon"></i>
-              <div class="info">
-                <span>My SQL</span>
-                <span>90%</span>
-              </div>
-              <div class="line sql"></div>
-            </div>
-            <div class="bars">
-              <i class="fa-solid fa-code" id="icon"></i>
-              <div class="info">
-                <span>Hibernate</span>
-                <span>80%</span>
-              </div>
-              <div class="line hibernate"></div>
-            </div>
-            <div class="bars">
-              <i class="fa-brands fa-java" id="icon"></i>
-              <div class="info">
-                <span>Spring-Boot</span>
-                <span>70%</span>
-              </div>
-              <div class="line spring-boot"></div>
-            </div>
-            <div class="bars">
-              <i class="fa-brands fa-html5" id="icon"></i>
-              <div class="info">
-                <span>HTML</span>
-                <span>90%</span>
-              </div>
-              <div class="line html"></div>
-            </div>
-            <div class="bars">
-              <i class="fa-brands fa-css3" id="icon"></i>
-              <div class="info">
-                <span>CSS</span>
-                <span>50%</span>
-              </div>
-              <div class="line css"></div>
-            </div>
-            <div class="bars">
-              <i class="fa-brands fa-js" id="icon"></i>
-              <div class="info">
-                <span>JavaScript</span>
-                <span>70%</span>
-              </div>
-              <div class="line javaScript"></div>
-            </div>
-          </div>
+      <div class="max-width" id="sk">
+        <h2 class="title" id="sk">My Skills</h2>
+        <h4>FrontEnd Skill</h4>
+        <div class="fron">
+          <!-- <div> -->
+          <img src="Images/Html.png" alt="" />
+          <!-- </div> -->
+          <!-- <div> -->
+          <img src="Images/css.png" alt="" />
+          <!-- </div> -->
+          <!-- <div> -->
+          <img src="Images/js.png" alt="" />
+          <!-- </div> -->
         </div>
+        <h4>Backend Skill</h4>
+        <div class="back">
+          <img src="Images/java-logo-vert-blk.png" alt="" />
+          <img src="Images/SQL.png" alt="" />
+          <img id="hb" src="Images/Hibernate.png" alt="" />
+          <img src="Images/database.png" alt="" />
+        </div>
+        <h4>Tools</h4>
+        <div class="soft">
+          <img id="vs" src="Images/Vs code.png" alt="" />
+          <img src="Images/sts.png" alt="" />
+          <img id="hb" src="Images/oracle-logo.png" alt="" />
+          <img src="Images/intelli.jpg" alt="" />
+        </div>
+
+        <!-- <div></div> -->
       </div>
     </section>
 
+    <!-- <div class="skills-content">
+      <div class="column left">
+        
+    </div> -->
+
+    <!-- <div class="text" id="skill">My Education</div>
+    <p class="lorem" id="dev">Java Backend Developer</p>
+    <p class="lorem" id="edu">Masai School <span>Nov 2022</span></p>
+    <p class="lorem">
+      'I'm a certified backend developer adept at contributing to the
+      highly collaborative work environment and finding solutions. and
+      determining customer satisfaction. Designed and developed web
+      applications across multiple APIs, third-party integration, and
+      database. Passionate and hardworking will penchant for developing
+      Customized interfaces that factor in unique demands for
+      accessibility, reachability, and security.
+    </p>
+
+    <- <a href="#" id="read"> Read More</a> -->
+    <!-- </div>
+  <div class="column right">
+    <div class="bars">
+      <i class="fa-brands fa-java" id="icon"></i>
+      <div class="info">
+        <span>Java</span>
+        <span>90%</span>
+      </div>
+      <div class="line java"></div>
+    </div>
+    <div class="bars">
+      <i class="fa-solid fa-database" id="icon"></i>
+      <div class="info">
+        <span>My SQL</span>
+        <span>90%</span>
+      </div>
+      <div class="line sql"></div>
+    </div>
+    <div class="bars">
+      <i class="fa-solid fa-code" id="icon"></i>
+      <div class="info">
+        <span>Hibernate</span>
+        <span>80%</span>
+      </div>
+      <div class="line hibernate"></div>
+    </div>
+    <div class="bars">
+      <i class="fa-brands fa-java" id="icon"></i>
+      <div class="info">
+        <span>Spring-Boot</span>
+        <span>70%</span>
+      </div>
+      <div class="line spring-boot"></div>
+    </div>
+    <div class="bars">
+      <i class="fa-brands fa-html5" id="icon"></i>
+      <div class="info">
+        <span>HTML</span>
+        <span>90%</span>
+      </div>
+      <div class="line html"></div>
+    </div>
+    <div class="bars">
+      <i class="fa-brands fa-css3" id="icon"></i>
+      <div class="info">
+        <span>CSS</span>
+        <span>50%</span>
+      </div>
+      <div class="line css"></div>
+    </div>
+    <div class="bars">
+      <i class="fa-brands fa-js" id="icon"></i>
+      <div class="info">
+        <span>JavaScript</span>
+        <span>70%</span>
+      </div>
+      <div class="line javaScript"></div>
+    </div>
+  </div> -->
     <!-- ************************************************************************************** -->
 
     <!-- my project section start -->
-    <section class="teams" id="teams">
-      <div class="max-width" id="id3">
-        <h2 class="title">My Projects</h2>
+    <!-- <section class="teams" id="teams">
+      <div class="max-width" id="id3"> -->
 
-        <div class="carousel" id="id1">
-          <div class="card" id="id2">
+    <section class="projects" id="project">
+      <h2 class="title">My Projects</h2>
+
+      <!-- <div class="carousel" id="id1"> -->
+      <div class="gird">
+        <div>
+          <img src="Images/AppleTv.png" alt="" />
+          <div class="text"><h3>Apple Tv Clone</h3></div>
+          <p>
+            Apple TV+ is an American subscription streaming service owned and
+            operated by Apple Inc. It offers a selection of original production
+            films and television series called Apple Originals. It's the portal
+            for Apple's Apple TV+ service, featuring original content created
+            for Apple.
+          </p>
+          <p>Tech-Stack: CSS | HTML | Javascript | Glider-js</p>
+          <div id="github">
+            <a
+              href="https://github.com/tarunnkalra/cared-rainstrom-6203"
+              target="_blank"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a
+              href="https://admirable-mousse-4c3fee.netlify.app"
+              target="_blank"
+              ><i class="fa-brands fa-octopus-deploy"></i
+            ></a>
+          </div>
+        </div>
+
+        <!-- second projest -->
+        <div>
+          <img src="Images/You-tube.png" alt="" />
+          <div class="text"><h3>You Tube Clone</h3></div>
+          <p>
+            Apple TV+ is an American subscription streaming service owned and
+            operated by Apple Inc. It offers a selection of original production
+            films and television series called Apple Originals. It's the portal
+            for Apple's Apple TV+ service, featuring original content created
+            for Apple.
+          </p>
+          <p>Tech-Stack: CSS | HTML | Javascript | You-Api</p>
+
+          <div id="github">
+            <a
+              href="https://github.com/tarunnkalra/cared-rainstrom-6203"
+              target="_blank"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a
+              href="https://admirable-mousse-4c3fee.netlify.app"
+              target="_blank"
+              ><i class="fa-brands fa-octopus-deploy"></i
+            ></a>
+          </div>
+        </div>
+
+        <!-- third porject -->
+        <div>
+          <img src="Images/Zara.png" alt="" />
+          <div class="text"><h3>Zara Website Clone</h3></div>
+          <p>
+            The company specializes in fast fashion, and products include
+            clothing, accessories, shoes, swimwear, beauty, and perfumes. It is
+            the largest company in the Inditex group, the world's largest
+            apparel retailer. Zara is one of the most successful fashion retail
+            brands in the world
+          </p>
+          <p>Tech-Stack: CSS | HTML | Javascript</p>
+          <div id="github">
+            <a
+              href="https://github.com/kunalchandel4/teamDeskChampions"
+              target="_blank"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a
+              href="https://kunalchandel4.github.io/teamDeskChampions/"
+              target="_blank"
+              ><i class="fa-brands fa-octopus-deploy"></i
+            ></a>
+          </div>
+        </div>
+
+        <!-- <div></div> -->
+      </div>
+    </section>
+
+    <!-- <div class="card" id="id2">
             <div class="box" id="box1">
               <img src="Images/AppleTv.png" alt="" />
               <div class="text">Apple Tv Clone</div>
@@ -253,15 +367,15 @@
                   ><i class="fa-brands fa-octopus-deploy"></i
                 ></a>
               </div>
-              <!-- <p class="con">
+               <p class="con">
                 Area of Responsibility
                 <ul class="feat">
                   <li>Was responsible for creating a landing page.</li>
                   <li>Providing a carousel feature.</li>
                 </ul>
 
-              </p> -->
-            </div>
+               </p> -->
+    <!-- </div>
           </div>
 
           <div class="card" id="id2">
@@ -280,8 +394,8 @@
                   target="_blank"
                   ><i class="fa-brands fa-octopus-deploy"></i
                 ></a>
-              </div>
-              <!-- <p class="con">
+              </div>  -->
+    <!-- <p class="con">
                 Features
                 <ul class="feat">
                   <li>It fetched data from the You-API.</li>
@@ -289,7 +403,7 @@
                   <li>It has a Searching functionality.</li>
                 </ul>
               </p> -->
-            </div>
+    <!-- </div>
           </div>
 
           <div class="card" id="id2">
@@ -308,8 +422,8 @@
                   target="_blank"
                   ><i class="fa-brands fa-octopus-deploy"></i
                 ></a>
-              </div>
-              <!-- <p class="con">
+              </div> -->
+    <!-- <p class="con">
                 Area of Responsibility
                 <ul class="feat">
                   <li>Was responsible for creating a landing page.</li>
@@ -317,10 +431,10 @@
                 </ul>
 
               </p> -->
-            </div>
-          </div>
+    <!-- </div>
+          </div> -->
 
-          <!-- <div class="card" id="id2">
+    <!-- <div class="card" id="id2">
             <div class="box">
               <img src="Images/main.png" alt="" />
               <div class="text">Resturant Management</div>
@@ -340,9 +454,9 @@
                   <li>It has a Searching functionality.</li>
                 </ul>
               </p> -->
-          <!-- </div>
+    <!-- </div>
           </div> -->
-          <!-- <div class="card">
+    <!-- <div class="card">
             <div class="box">
               <img src="Images/main.png" alt="" />
               <div class="text">Name</div>
@@ -354,9 +468,11 @@
               </p>
             </div>
           </div> -->
-        </div>
-      </div>
-    </section>
+
+    <!-- </div> -->
+
+    <!-- </div>
+    </section> -->
 
     <!-- contact details for me  -->
 
@@ -447,14 +563,40 @@
         </div>
       </div>
     </section>
+    <div class="calendar">
+      <!-- Loading stuff --> -->
 
-    <!-- footer section -->
+   </div>
+    
     <footer>
       <span
         >Created By <a href="#">Kunal-Chandel</a> |
         <span class="far-fa-copyright">©</span> 2022 All rights reserved.
       </span>
     </footer>
+    <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+
+    <!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
+    />
+
+    <!-- Prepare a container for your calendar. -->
+
+    <script>
+      GitHubCalendar(".calendar", "kunalchandel4");
+
+      // or enable responsive functionality:
+      GitHubCalendar(".calendar", "kunalchandel4", { responsive: true });
+
+      // Use a proxy
+      GitHubCalendar(".calendar", "kunalchandel4", {
+        proxy(kunalchandel4) {
+          return fetch(`https://your-proxy.com/github?user=${kunalchandel4}`);
+        },
+      }).then((r) => r.text());
+    </script>
 
     <script src="script.js"></script>
     <script>

@@ -195,6 +195,7 @@ section{
 }
 
 section .title{
+
     position: relative;
     text-align:  center;
 font-size: 40;
@@ -1044,11 +1045,7 @@ font-size: 16px;
 }
 
 @media (min-width: 100px) and (max-width: 900px){
-    .teams .carousel .card img{
-       
-        border: 6px solid red;
-      
-    }
+    
     #id2{
      
         width: 80%;
@@ -1060,5 +1057,233 @@ font-size: 16px;
        
 }
 }
-/* 
- */
+
+
+h2{
+    font-family: 'Poppins',sans-serif;
+}
+ .gird{
+   
+    width: 80%;
+    margin: auto;
+display: grid;
+grid-template-columns: repeat(2,1fr);
+grid-template-rows: auto;
+gap: 30px;
+    height: 100vh;
+    
+}
+
+.gird div h3{
+    font-size: 24px;
+    font-family: 'Poppins',sans-serif;
+}
+.gird div:hover{
+
+    /* background-color: rgb(228, 194, 201); */
+    background-color: #111;
+    color: white;
+    cursor: pointer;
+
+}
+.gird div img:hover{
+    border: 5px solid crimson;
+}
+.gird div img{
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    border: 5px solid crimson;
+
+}
+.text{
+    width: 90%;
+    margin: auto;
+
+}
+.gird div #github{
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+   
+
+    font-size: 26px;
+}
+.gird div #github i{
+    color: crimson;
+    padding-bottom: 20px;
+}
+
+.gird div p{
+text-align: justify;
+margin: auto;
+font-size: 18px;
+font-weight: 400;
+font-family: 'Poppins',sans-serif;
+    width: 90%;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+#java{
+    font-size: 35px;
+}
+.contact{
+
+    margin-top: 300px;
+}
+
+@media (min-width: 350px) and (max-width: 400px){
+    .contact{
+
+        margin-top: 1000px;
+    }
+    .gird{
+   
+        width: 95%;
+    }
+}
+
+@media (min-width: 401px) and (max-width: 500px){
+    .contact{
+
+        margin-top: 700px;
+    }
+    .gird{
+   
+        width: 95%;
+    }
+    
+}
+@media (min-width: 500px) and (max-width: 700px){
+    .contact{
+
+        margin-top: 500px;
+    }
+    .gird{
+   
+        width: 95%;
+    }
+}
+
+@media (min-width: 350px) and (max-width: 550px){
+.fron img{
+    border-radius: 10px;
+        width: 50px;
+      
+        height: 40px;
+    }
+    
+    .back img{
+        border-radius: 10px;
+        width: 50px;
+        height: 40px;
+    }
+    
+    .soft img{
+        border-radius: 10px;
+        width: 30px;
+        gap: 10px;
+        height: 20px;
+        border: 1px solid red;
+    }
+
+
+}
+@media (min-width: 350px) and (max-width: 410px){
+    .contact{
+
+        margin-top: 850px;
+    }
+}
+
+
+
+
+/* .pro{
+    width: 80%;
+    border: 1px solid red;
+    margin: auto;
+    text-align: center;
+    font-size: 40;
+    font-weight: 500;
+    
+    font-family: 'ubuntu',sans-serif;
+} */
+
+
+
+#sk {
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: repeat(3,fr);
+}
+.fron{
+ width: 50%;
+ margin: auto;
+    display: flex;
+
+    justify-content: space-around;
+    padding-bottom: 15px;
+}
+.fron img{
+border-radius: 10px;
+    width: 80px;
+  
+    height: 60px;
+}
+
+.back{
+    width: 80%;
+    margin: auto;
+       display: flex;
+   
+       justify-content: space-around;
+}
+.back img{
+    border-radius: 10px;
+    width: 80px;
+    height: 60px;
+}
+h4{
+    width: 40%;
+    margin: auto;
+  
+    background-color: crimson;
+    color:  white;
+    text-align: center;
+
+font-family: 'Poppins',sans-serif;
+margin-bottom: 40px;
+margin-top: 25px;
+}
+.soft{
+    width: 80%;
+    margin: auto;
+       display: flex;
+
+       justify-content: space-around;
+}
+.soft img{
+    border-radius: 10px;
+    width: 80px;
+    height: 60px;
+}
+#vs{
+width: 110px;
+}
+
+
+
+
+
+
+
+
+
+footer{
+    margin-top: 30px;
+}
