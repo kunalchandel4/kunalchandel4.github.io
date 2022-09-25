@@ -325,7 +325,7 @@ width: 45%;
           
    .services .title::after, .teams .title::after{
 background: #111;
-    content: "What i provide";
+    
     font-size: 14px;
     
 
@@ -377,7 +377,6 @@ background: #111;
 
 .skills .title::after{
 
-    content: "What i know";
 }
 .skills .skills-content .column{
 
@@ -472,7 +471,7 @@ font-size: 18px;
 
 /* project section  */
 .teams .title::after{
-    content: "What have i done so far" ;
+   
     font-size: 12px;
   
 }
