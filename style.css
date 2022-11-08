@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 
@@ -27,7 +28,7 @@ html{
     width: 100%;
     z-index: 999;
     padding: 30px 0;
-    font-family: 'ubuntu',sans-serif;
+    font-family:'Courier New', Courier, monospace;
     transition: all 0.3s ease;
 }
 .navbar.sticky{
@@ -127,13 +128,14 @@ Home Secton start */
 
 .home{
     display: flex;
-    background: black ; 
+   
+   
     height: 100vh;
     background: #111 ;
     color: #fff;
     min-height: 500px;
-    background-color: black;
-    font-family: 'ubuntu',sans-serif;
+  
+    font-family: 'Courier New', Courier, monospace;
  
 }
 .home .max-width{
@@ -185,7 +187,7 @@ transition: all 0.3s ease;
 
 .about, .services, .skills, .teams, .contact, footer{
 
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Courier New', Courier, monospace;
 
 
 }
@@ -202,7 +204,7 @@ font-size: 40;
 font-weight: 500;
 margin-bottom: 60px;
 padding-bottom: 20px;
-    font-family: 'ubuntu',sans-serif;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .about .about-content .right p{
@@ -270,9 +272,7 @@ section .title::after{
     
 
 }
-.about .title::after{
-    content: "who i am";
-}
+
 .about .about-content, .services .serv-content, .skills .skills-content, .contact .contact-content{
 display: flex;
 flex-wrap: wrap;
@@ -588,9 +588,7 @@ margin-left: 35%;
 
 /* contact styling */
 
-.contact .title::after{
-    content: "Get in touch";
-}
+
 .contact .contact-content .column{
 
     width: calc(50% - 30px);
@@ -684,7 +682,7 @@ text-align: justify;
     outline: none;
     padding: 0 15px;
     font-size: 17px;
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .contact .right form .textarea textarea{
@@ -1060,7 +1058,7 @@ font-size: 16px;
 
 
 h2{
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Courier New', Courier, monospace;
 }
  .gird{
    
@@ -1080,7 +1078,7 @@ gap: 30px;
 
 .gird div h3{
     font-size: 24px;
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Courier New', Courier, monospace;
 }
 .gird div:hover{
 
@@ -1125,7 +1123,7 @@ text-align: justify;
 margin: auto;
 font-size: 18px;
 font-weight: 400;
-font-family: 'Poppins',sans-serif;
+font-family: 'Courier New', Courier, monospace;
     width: 90%;
 
     margin-top: 10px;
@@ -1281,7 +1279,7 @@ h4{
     color:  white;
     text-align: center;
 
-font-family: 'Poppins',sans-serif;
+font-family: 'Courier New', Courier, monospace;
 margin-bottom: 40px;
 margin-top: 25px;
 }
@@ -1330,7 +1328,7 @@ footer{
 
 }
 .gridtem>div{
-    border: 1px solid green;
+    border: 2px solid black;
 }
 .gridtem div img{
     width:100%;
