@@ -5,7 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial, Helvetica, sans-serif
 }
 
 
@@ -23,13 +23,13 @@ html{
    
 }
 .navbar{
- 
+    background-color:lightslategrey ;
     position: fixed ;
+   
     width: 100%;
     z-index: 999;
     padding: 30px 0;
-    font-family:'Courier New', Courier, monospace;
-    transition: all 0.3s ease;
+        transition: all 0.3s ease;
 }
 .navbar.sticky{
    padding: 15px 0;
@@ -70,9 +70,9 @@ margin-left: 25px;
 transition: color 0.3 ease;
 
 }
-.navbar .menu li a:hover{
+/* .navbar .menu li a:hover{
     color: crimson;
-}
+} */
 .navbar.sticky .menu li a:hover{
     color:#fff;
    
@@ -135,7 +135,7 @@ Home Secton start */
     color: #fff;
     min-height: 500px;
   
-    font-family: 'Courier New', Courier, monospace;
+    
  
 }
 .home .max-width{
@@ -187,7 +187,7 @@ transition: all 0.3s ease;
 
 .about, .services, .skills, .teams, .contact, footer{
 
-    font-family: 'Courier New', Courier, monospace;
+    
 
 
 }
@@ -204,7 +204,7 @@ font-size: 40;
 font-weight: 500;
 margin-bottom: 60px;
 padding-bottom: 20px;
-    font-family: 'Courier New', Courier, monospace;
+    
 }
 
 .about .about-content .right p{
@@ -249,7 +249,7 @@ border-radius: 6px;
     left: 50%;
     width: 180px;
     height: 3px;
-    background-color: #111;
+    background-color:   ;
     transform: translateX(
         -50%
     );
@@ -312,17 +312,19 @@ width: 45%;
     /* Services Section means skill */
     .services, .teams{
        
-        color: #fff;
-        background: #111;
+        color:black;
+  background-color:lightslategrey ; 
+  border-radius: 50px;
+  margin: 1rem;
     }
  
-    .services .title::before,
+    /* .services .title::before,
     .teams .title::before{
         background: #fff;
            
         
     }
-          
+           */
    .services .title::after, .teams .title::after{
 background: #111;
     
@@ -337,9 +339,11 @@ background: #111;
     background: #2222;
     text-align: center;
     border-radius: 6px;
+    height: 250px;
     padding: 20px 25px;
     cursor: pointer;
     transition: all 0.3s ease;
+    border-radius: 40px;
    }
    .services .serv-content .card:hover{
     background: crimson;
@@ -682,7 +686,7 @@ text-align: justify;
     outline: none;
     padding: 0 15px;
     font-size: 17px;
-    font-family: 'Courier New', Courier, monospace;
+    
 }
 
 .contact .right form .textarea textarea{
@@ -717,7 +721,7 @@ text-align: justify;
 /* Footer section */
 
 footer{
-    background-color: #111;
+    background-color:lightslategrey ; 
     padding: 20px 23px;
     color: #fff;
     text-align: center;
@@ -1057,9 +1061,7 @@ font-size: 16px;
 }
 
 
-h2{
-    font-family: 'Courier New', Courier, monospace;
-}
+
  .gird{
    
     width: 80%;
@@ -1078,12 +1080,12 @@ gap: 30px;
 
 .gird div h3{
     font-size: 24px;
-    font-family: 'Courier New', Courier, monospace;
+    
 }
 .gird div:hover{
 
     /* background-color: rgb(228, 194, 201); */
-    background-color: #111;
+    background-color:lightslategray ;
     color: white;
     cursor: pointer;
 
@@ -1099,7 +1101,7 @@ gap: 30px;
 
 }
 .text{
-    width: 90%;
+    width: 100%;
     margin: auto;
 
 }
@@ -1123,7 +1125,7 @@ text-align: justify;
 margin: auto;
 font-size: 18px;
 font-weight: 400;
-font-family: 'Courier New', Courier, monospace;
+
     width: 90%;
 
     margin-top: 10px;
@@ -1170,7 +1172,11 @@ font-family: 'Courier New', Courier, monospace;
         width: 95%;
     }
 }
-
+h3{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
 @media (min-width: 350px) and (max-width: 550px){
 .fron img{
     border-radius: 10px;
@@ -1213,6 +1219,7 @@ font-family: 'Courier New', Courier, monospace;
     .contact{
 
         margin-top: 1650px;
+        padding: 1rem;
     }
 }
 
@@ -1225,8 +1232,7 @@ font-family: 'Courier New', Courier, monospace;
     text-align: center;
     font-size: 40;
     font-weight: 500;
-    
-    font-family: 'ubuntu',sans-serif;
+   
 } */
 
 @media (min-width: 320px) and (max-width: 780px){
@@ -1239,6 +1245,7 @@ width: 100%;
 
 
 #sk {
+ 
     display: grid;
     grid-template-columns: 1;
     grid-template-rows: repeat(3,fr);
@@ -1279,7 +1286,7 @@ h4{
     color:  white;
     text-align: center;
 
-font-family: 'Courier New', Courier, monospace;
+
 margin-bottom: 40px;
 margin-top: 25px;
 }
@@ -1319,7 +1326,7 @@ footer{
  justify-content: space-around;
 }
 .gridtem{
-    width: 80%;
+    width: 70%;
    margin: auto;
     display: grid;
     grid-template-rows: repeat(3,1fr);
@@ -1327,14 +1334,32 @@ footer{
     gap: 30px;
 
 }
-.gridtem>div{
+/* .gridtem>div{
     border: 2px solid black;
-}
+} */
+/* .gridtem div{
+    border-radius: ;
+} */
+
 .gridtem div img{
-    width:100%;
-    height: 150px;
-    transition: all 0.3s ease;
+    display: block;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
     cursor: pointer;
+   
+   
+}
+.gridtem div:hover{
+    box-shadow:  rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+border-radius: 350px ;
+
+}
+.gridtem div{
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 #cal{
     width: 90%;
@@ -1390,21 +1415,146 @@ text-align: center;
   
 
     margin: auto;
-    margin-top: 30px;
+    margin-top: 380px;
 
 }
+@media(max-width: px){
+
+
+}
+@media(max-width: 1358px){
+
+    #git-stat{
+      
+        margin-top: 250px;
+    
+    }
+}
+
  #h1 {
     text-align: center;
     font-size: 40px;
     margin-top: 50px;
 
-    margin-bottom: 20px;
+    margin-bottom: -20%;
 }
-#git-stat >p >img{
+#chn{
+    text-align: center;
+}
+/* #git-stat >p >img{
 
-    margin-top: 50px;
+    margin-top: 280px;
+    
  
-}
+} */
 #git-stat >p{
     text-align: center;
+}
+#git-stat{
+    display: flex;
+}
+
+.img{
+
+    width: 80%;
+    height: 200px;
+}
+
+
+
+    @media(max-width:400px){
+        .gird{
+   
+   
+   
+    
+            margin-bottom: 900px;
+        }
+        #chn{
+         margin-left: 30px;
+            font-size: 10px ;
+            text-align: start;
+        }
+        #changes{
+            font-size: 12px;
+            /* display: none; */
+        }
+
+    
+    }
+    
+@media(max-width:800px){
+    #git-stat{
+        display: grid;
+     
+        
+    } 
+    .lodnon{
+        padding-bottom: 100px;
+    }
+/*     
+    #git-stat > p{
+        border: 1px solid red;
+    } */
+/* .card{
+    border: 4px solid red;
+    padding: 5rem;
+} */
+
+    #h1 {
+     
+   
+       margin-bottom: -40%;
+   }
+    
+    /* #git-stat>p >img{
+       
+        margin-bottom: -60%;
+    } */
+    .gridtem{
+   
+        grid-template-rows: repeat(6,1fr);
+        grid-template-columns: repeat(2,1fr);
+        gap: 40px;
+    
+    }
+
+    .gridtem div img{
+   
+        border-radius: 10px ;
+        
+
+    }
+    .gridtem div:hover{
+      
+    border-radius: 10px ;
+    
+    }
+ #chn{
+font-size: 15px;
+    margin-left: 10px;
+    text-align: start;
+    } 
+ 
+}
+
+@media(max-width:500px){
+    .lodnon{
+        padding-bottom: 0px;
+    }
+}
+
+@media(max-width:350px){
+    .lodnon{
+        padding-bottom: -500px;
+    }
+    .git-stat {
+        margin-top: -150px;
+
+    }
+   .img{
+       
+        width: 80%;
+    height: 100px;
+    }
 }
