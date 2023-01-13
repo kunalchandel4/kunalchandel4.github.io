@@ -337,10 +337,10 @@ background: #111;
 
     width: calc(33% - 20px);
     background: #2222;
-    text-align: center;
+    text-align: justify;
     border-radius: 6px;
-    height: 250px;
-    padding: 20px 25px;
+    height: 390px;
+    padding: 2px 2px;
     cursor: pointer;
     transition: all 0.3s ease;
     border-radius: 40px;
@@ -743,6 +743,13 @@ footer span a:hover{
     /* // phone */
 
            /* // home section */
+
+           .services .serv-content .card{
+
+       
+            height: 450px;
+        
+           }
            
     .home {
         width: 100%;
