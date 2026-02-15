@@ -12,7 +12,22 @@ export const metadata: Metadata = {
   title: "Kunal Chandel | Investment Banking Operations",
   description:
     "Portfolio of Kunal Chandel - Investment Banking Associate specializing in Back Office Operations, Trade Reconciliation, Corporate Actions, and Settlement Risk Analysis.",
-  generator: "v0.app",
+  keywords: [
+    "Kunal Chandel",
+    "Investment Banking",
+    "Operations",
+    "Trade Reconciliation",
+    "Corporate Actions",
+    "Settlement Risk",
+    "Back Office",
+  ],
+  authors: [{ name: "Kunal Chandel" }],
+  openGraph: {
+    title: "Kunal Chandel | Investment Banking Operations",
+    description:
+      "Investment Banking Associate specializing in Back Office Operations, Trade Reconciliation, Corporate Actions, and Settlement Risk Analysis.",
+    type: "website",
+  },
 }
 
 export const viewport: Viewport = {
