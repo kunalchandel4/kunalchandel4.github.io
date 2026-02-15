@@ -32,10 +32,21 @@ export default function ContactSection() {
 
     setStatus("sending")
     try {
-      const res = await fetch("/api/contact", {
+      // Call Web3Forms directly from the client for maximum compatibility
+      const res = await fetch("https://api.web3forms.com/submit", {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(formData),
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        body: JSON.stringify({
+          access_key: "967b785b-9181-478c-84e3-51da64a9f1d2",
+          name: formData.name,
+          email: formData.email,
+          message: formData.message,
+          subject: `Portfolio Contact from ${formData.name}`,
+          from_name: "KC Portfolio Website",
+        }),
       })
       const data = await res.json()
       if (res.ok && data.success) {
